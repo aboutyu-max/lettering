@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terakhir</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: url('bg.jpg') center/cover no-repeat fixed;
+      color: white;
+      text-align: center;
+    }
+
+    .overlay {
+      background: rgba(255, 182, 193, 0.3);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      color: #ff69b4;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.2);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      border-radius: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 15px;
+    }
+
+    video {
+      width: 100%;
+      margin-top: 20px;
+      border-radius: 15px;
+    }
+
+    button {
+      background: pink;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      margin-top: 20px;
+    }
+
+    .decor {
+      position: fixed;
+      width: 80px;
+    }
+
+    .top-left { top: 10px; left: 10px; }
+    .top-right { top: 10px; right: 10px; }
+    .bottom-left { bottom: 10px; left: 10px; }
+    .bottom-right { bottom: 10px; right: 10px; }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hiasan -->
+  <img src="hias1.png" class="decor top-left">
+  <img src="hias2.png" class="decor top-right">
+  <img src="hias3.png" class="decor bottom-left">
+  <img src="hias4.png" class="decor bottom-right">
+
+  <div class="overlay">
+
+    <h1>Terakhir 💗</h1>
+
+    <!-- Musik -->
+    <audio id="music" loop>
+      <source src="lagu.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="playMusic()">Play Music 🎵</button>
+
+    <div class="card">
+      <p>
+      hallow •ᴗ• kita ex sekarang, i really miss youu tapi kita berdua sama sama gabisaaa kalo bersama.. aku mau perbaikin hidupku samaa dewasain sifatku, aku selalu ga ngerti gimana supaya aku bisa penuhin kamu sama perasaan kasih sayang soalnyaa aku gapernah dapet itu dari keluarga aku, maafin akuu yang aneh gini yaa.. aku mohon jangan hapus chat kita jangan hapus kenangannya kamu orang paling manis kamu perlakuin aku dengann baik, mungkin beberapa emang ada yang nyakitin perasaanku tapi aku udah mulai lupain semuanya..
+
+Aku mau berhenti hubungan karna aku sendiri capek sama pikiran sendiri kamuu orang yang paling baik yang pernah aku temuin sebagai orang asing awalnyaa, aku terlalu sakit terlalu banyakk masalah keluarga sampe lupa ngasih kamu benefit terbaik yang aku punya.. makanya aku mau perbaiki diri lebih dari aku yang sekarang.
+
+Jangan musuhin sama benci aku ya.. maaf ya kemarin aku cuman mau di respon pake emotional support daripada pake logika. soalnyaa kamu kadang kesel, bt, dan kayanya greget jugaa sama aku karna aku masih minjemin uang ke mama papa.. tapi kemarin-kemarin aku beneran lagi depresi banget aku cuman mintaa di dukung secara emosi bukan pake logika yang biasanya km kasih.
+
+Aku berharap kamu gaa ganti semua sosmed kamu, maafin aku. Aku harus ngebuat diriku ngerasa cukup dulu dimasa depan nanti mau ga temenan sama aku? kaloo gamau gapapa gausah di jawab.. aku berharap kamu punya pacar yang baik sama kamu lebih dari aku dan aku juga berharap kamu ngelakuin semua yang aku bilang kaya gaboleh terlalu ngatur, gaboleh ngeliat perempuan lain. aku berharap ga adaa yang sakit hati lagii sama kamu.
+
+Makasih banyakk kado ultah nyaa, maaf hubungan kita ga ada padahal beberapa hari lagi aku ulang tahun. Jangan dibuang kamu simpen ajaa, maaf ya kalo aku kesannya ga menghargai, aku jugaa ga nyangka kita berhenti secepet ini.
+
+Aku berharap nanti kita masih bisa temenan tanpa perasaan yang mendalam tanpaa rasa sakit jugaa I lovee you, makasii udah jadi alasan aku tetep hidup selamaa ini makasii jugaa udah hadir di hidupku yang hancur, makasih banyakk udah penuhin banyakk innerchild ku. Aku senengg banget kamu panggil dede  rasanyaa semua masalah aku hilang aku lupa sesaat sama apa yang lagi ku alamin.
+
+Makasih banyak udahh jadiin aku anak kecil yangg paling bahagia pas semua org maksa aku jadi tulang punggung keluarga.
+      </p>
+
+      <!-- Video -->
+      <video controls>
+        <source src="video.mp4" type="video/mp4">
+      </video>
+    </div>
+
+  </div>
+
+  <script>
+    function playMusic(){
+      document.getElementById("music").play();
+    }
+  </script>
+
+</body>
+</html>
